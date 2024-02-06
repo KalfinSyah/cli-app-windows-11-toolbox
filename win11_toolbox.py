@@ -2,7 +2,6 @@ import ctypes
 import os
 
 class Win11Toolbox:
-    # for checking if user have admin privileges or not
     def is_admin(self):
         try:
             return ctypes.windll.shell32.IsUserAnAdmin()
