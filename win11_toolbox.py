@@ -107,9 +107,3 @@ else:
     print("\nAdministrative privileges is needed for running this program smoothly......")
     print("\nHints : Right click WindowsPowerShell (recommended) or cmd, then click on 'Run as Administrator'\n")
     quit()
-
-else:
-    os.system("cls")
-    print("\nAdministrative privileges is needed for running this program smoothly......")
-    print("\nHints : Right click WindowsPowerShell (recommended) or cmd, then click on 'Run as Administrator'\n")
-    quit()
