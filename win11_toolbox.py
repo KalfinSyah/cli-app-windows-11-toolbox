@@ -21,14 +21,23 @@ class Win11Toolbox:
         os.system("start ms-settings:gaming-gamemode")
 
     def install_wsl(self):
+        user_input = str(input("\nAre you sure (y/n) : "))
+        
+        if user_input == "n":
+            return
+
         print("")
         os.system("wsl --install")
     
     def upgrade_my_apps(self):
         print("")
         os.system("winget upgrade")
-        print("\nNB : --all for upgrade all your apps, and if error occurred try use id instead of name")
+        print("\nNB : Write --all for upgrade all your apps. If error occurred try use id instead of name. Write cencel for cenceling.")
         user_input = str(input(f"\nChoose one (by name/id) : "))
+
+        if user_input == "cencel":
+            return
+
         print("")
         os.system(f'winget upgrade "{user_input}"')
         print("")
@@ -92,6 +101,12 @@ if is_admin:
         print(f"\n- - - - - - - - - - - - - - - - - - - - - - - - - - -")
 
 
+
+else:
+    os.system("cls")
+    print("\nAdministrative privileges is needed for running this program smoothly......")
+    print("\nHints : Right click WindowsPowerShell (recommended) or cmd, then click on 'Run as Administrator'\n")
+    quit()
 
 else:
     os.system("cls")
