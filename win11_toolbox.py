@@ -1,7 +1,5 @@
 import ctypes
 import os
-import subprocess
-import re
 
 class Win11Toolbox:
     def is_admin(self):
