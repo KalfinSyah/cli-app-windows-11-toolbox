@@ -4,7 +4,7 @@ by - kalfin syah
 ## how to use this toolbox
 1. Download the python file
 2. Go to terminal (use powershell i recomend, but if you use other that that its okey)
-3. (optional but recomended) Run as administrator
+3. (optional for version 1.1.0, mandatory for 1.0.0) Run as administrator
 4. (in terminal) find location of 'win11_toolbox_v1.1.0.py' directory
    - ex : cd "C:\Users\kalfin\Downloads\win11_toolbox_v1.1.0.py"
 6. then run this commmand -> python win11_toolbox_v1.1.0.py
@@ -19,6 +19,8 @@ by - kalfin syah
 - (administrator mode only) Upgrade My Apps.
 
 ## added features in version 1.1.0 :
+NB : this version can run WITHOUT admin mode, but if you want all features work, please run with admin mode
+funfuct : actually you can run this new features without admin mode IF AND ONLY you modify the code. But if you do that, you cant encrypt/decrypt files in folder that require administrator mode.
 1. (administrator mode only) Encrypt a File
    - Encrypt your file and genereting the key using cryptography.
    - Supported format file :
@@ -28,5 +30,4 @@ by - kalfin syah
 
 ## Important Notes :
 1. Please USE THIS TOOLBOX with cautions, bacause if something bad happend to your pc/laptop I AM NOT RESPONSIBLE FOR SUCH DEMAGES (even though its almost imposible that happend).
-3. If you want more features, you have to run powershell as administator.
-4. If you don't trust this toolbox, you can check every line of its code. Remember, this toolbox is open-source, meaning anyone can view/redistribute/modify this toolbox.
+2. If you don't trust this toolbox, you can check every line of its code. Remember, this toolbox is open-source, meaning anyone can view/redistribute/modify this toolbox.
