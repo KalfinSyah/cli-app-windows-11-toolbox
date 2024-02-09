@@ -19,6 +19,6 @@ by - kalfin syah
    Decrypt your file using cryptography (but please make sure you have the key first!)
 
 ## Important Notes :
-- ## Please USE THIS TOOLBOX with cautions, bacause if something bad happend to your pc/laptop I AM NOT RESPONSIBLE FOR SUCH DEMAGES (even though its almost imposible that happend).
-- ## If you want more features, you have to run powershell as administator.
-- ## If you don't trust this toolbox, you can check every line of its code. Remember, this toolbox is open-source, meaning anyone can view/redistribute/modify this toolbox.
+## 1. Please USE THIS TOOLBOX with cautions, bacause if something bad happend to your pc/laptop I AM NOT RESPONSIBLE FOR SUCH DEMAGES (even though its almost imposible that happend).
+## 2. If you want more features, you have to run powershell as administator.
+## 3. If you don't trust this toolbox, you can check every line of its code. Remember, this toolbox is open-source, meaning anyone can view/redistribute/modify this toolbox.
