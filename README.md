@@ -3,7 +3,12 @@ by - kalfin syah
 
 ## how to use this toolbox
 1. Download the python file
-2. 
+2. Go to terminal (use powershell i recomend, but if you use other that that its okey)
+3. (optional but recomended) Run as administrator
+4. (in terminal) find location of 'win11_toolbox_v1.1.0.py' directory
+   ex : cd "C:\Users\kalfin\Downloads\win11_toolbox_v1.1.0.py"
+6. then run this commmand -> python win11_toolbox_v1.1.0.py
+   nb : the version is depend on what version you downloaded
 
 ## features in version 1.0.0 :
 - Open System Properties Performance.
