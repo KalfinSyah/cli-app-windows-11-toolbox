@@ -1,6 +1,7 @@
-## Win11Toolbox
+# Win11Toolbox
+by - kalfin syah
 
-# features in version 1.0.0 :
+## features in version 1.0.0 :
 - Open System Properties Performance.
 - Menage Startup Apps.
 - Perform Cleanmgr.
@@ -8,7 +9,7 @@
 - (administrator mode only) Install WSL/Windows Subsystem for Linux.
 - (administrator mode only) Upgrade My Apps.
 
-# added features in version 1.1.0 :
+## added features in version 1.1.0 :
 1. (administrator mode only) Encrypt a File
    Encrypt your file and genereting the key using cryptography.
    Supported format file :
@@ -17,7 +18,7 @@
 2. (administrator mode only) Decrypted a File.
    Decrypt your file using cryptography (but please make sure you have the key first!)
 
-# Important Notes :
-- # Please USE THIS TOOLBOX with cautions, bacause if something bad happend to your pc/laptop I AM NOT RESPONSIBLE FOR SUCH DEMAGES (even though its almost imposible that happend).
-- # If you want more features, you have to run powershell as administator.
-- # If you don't trust this toolbox, you can check every line of its code. Remember, this toolbox is open-source, meaning anyone can view/redistribute/modify this toolbox.
+## Important Notes :
+- ## Please USE THIS TOOLBOX with cautions, bacause if something bad happend to your pc/laptop I AM NOT RESPONSIBLE FOR SUCH DEMAGES (even though its almost imposible that happend).
+- ## If you want more features, you have to run powershell as administator.
+- ## If you don't trust this toolbox, you can check every line of its code. Remember, this toolbox is open-source, meaning anyone can view/redistribute/modify this toolbox.
