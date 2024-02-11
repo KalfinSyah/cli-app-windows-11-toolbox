@@ -2,7 +2,7 @@
 by - kalfin syah
 
 ## how to use this toolbox (for v1.2.0 only)
-1. Downlaod the v.1.2.0 folder
+1. Download the v.1.2.0 folder
 2. Go to terminal (use powershell i recomend, but if you use other that that its ok)
 3. (in terminal) find location of 'win11_toolbox_v1.1.0.py' directory
    - ex : cd "C:\Users\kalfin\Downloads\C:\Users\kalfin\Downloads\v1.2.0\"
