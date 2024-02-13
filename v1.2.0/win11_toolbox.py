@@ -54,7 +54,7 @@ class Win11Toolbox:
         ################################################################################
 
 
-    def encrypt_a_file(self):        
+    def encrypt_a_file(self):
         ################################################################################
         enter = input("Press enter to select a file (that you want to encrypt) from your computer......")
         target_file = filedialog.askopenfilename()
