@@ -4,7 +4,7 @@ from win11_toolbox import run_win11_toolbox_method, toolbox_options_lists
 while True:
     ###################################################################
     clear_terminal()
-    print("============= Windows 11 Toolbox v1.1.0 by kalfin syah ==============")
+    print("============= Windows 11 Toolbox v1.2.0 by kalfin syah ==============")
     print("=====================================================================")
     for i, j in enumerate(toolbox_options_lists, start=1):
         print(f"{i} = {j[0]}")
