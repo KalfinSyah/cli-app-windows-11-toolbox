@@ -54,12 +54,7 @@ class Win11Toolbox:
         ################################################################################
 
 
-    def encrypt_a_file(self):
-        if ctypes.windll.shell32.IsUserAnAdmin() != 1:
-            print("\033[91mError : \033[0mYou are not in administrator mode\n")
-            os.system('pause')
-            return
-        
+    def encrypt_a_file(self):        
         ################################################################################
         enter = input("Press enter to select a file (that you want to encrypt) from your computer......")
         target_file = filedialog.askopenfilename()
@@ -115,12 +110,7 @@ class Win11Toolbox:
         print(f"\033[32mBoth file is saved on {target_file_directory}/\033[0m\n")
         os.system("pause")
 
-    def decrypt_a_file(self):
-        if ctypes.windll.shell32.IsUserAnAdmin() != 1:
-            print("\033[91mError : \033[0mYou are not in administrator mode\n")
-            os.system('pause')
-            return
-        
+    def decrypt_a_file(self):        
         #################################################################################
         enter = input("Select an encrypted file from your computer please......")
         encrypted_file = filedialog.askopenfilename()
